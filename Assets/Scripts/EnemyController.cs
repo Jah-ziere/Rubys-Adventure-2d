@@ -7,6 +7,7 @@ public class EnemyController : MonoBehaviour
     public float speed = 3.0f;
     public bool vertical;
     public float changeTime = 3.0f;
+    public bool broken;
 
     Rigidbody2D rigidbody2D;
     float timer;
@@ -31,6 +32,13 @@ public class EnemyController : MonoBehaviour
         timer = changeTime;
          
          }
+
+         {
+            if(!broken)
+            {
+                return;
+            }
+         }
     }
 
     void FixedUpdate()
@@ -51,6 +59,8 @@ public class EnemyController : MonoBehaviour
         }
   
         rigidbody2D.MovePosition(position);
+
+        
     }
     void OnCollisionEnter2D(Collision2D other)
     {
@@ -62,4 +72,6 @@ public class EnemyController : MonoBehaviour
         
         }
     }
+       
+
 }

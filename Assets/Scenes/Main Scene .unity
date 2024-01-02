@@ -3252,37 +3252,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 976084921194802135, guid: 8ca5b2f2a1aea4db2b97bb279949b578, type: 3}
-      propertyPath: m_Size.y
-      value: 0.5158904
-      objectReference: {fileID: 0}
-    - target: {fileID: 976084921194802135, guid: 8ca5b2f2a1aea4db2b97bb279949b578, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.2579452
-      objectReference: {fileID: 0}
-    - target: {fileID: 1836126708695417009, guid: 8ca5b2f2a1aea4db2b97bb279949b578, type: 3}
-      propertyPath: m_GravityScale
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1836126708695417009, guid: 8ca5b2f2a1aea4db2b97bb279949b578, type: 3}
-      propertyPath: m_SleepingMode
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3534730996451603625, guid: 8ca5b2f2a1aea4db2b97bb279949b578, type: 3}
       propertyPath: m_Name
       value: ruby
       objectReference: {fileID: 0}
+    - target: {fileID: 3534730996451603625, guid: 8ca5b2f2a1aea4db2b97bb279949b578, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3534730996451603631, guid: 8ca5b2f2a1aea4db2b97bb279949b578, type: 3}
       propertyPath: m_RootOrder
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3534730996451603631, guid: 8ca5b2f2a1aea4db2b97bb279949b578, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.3807807
-      objectReference: {fileID: 0}
-    - target: {fileID: 3534730996451603631, guid: 8ca5b2f2a1aea4db2b97bb279949b578, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.5418
       objectReference: {fileID: 0}
     - target: {fileID: 3534730996451603631, guid: 8ca5b2f2a1aea4db2b97bb279949b578, type: 3}
       propertyPath: m_LocalPosition.x
