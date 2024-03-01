@@ -24,12 +24,23 @@ public class RubyController : MonoBehaviour
 
    Animator animator;
    Vector2 lookDirection = new Vector2(1,0);
+
+   AudioSource audioSource;
+   public AudioClip projectileSound;
+   public AudioClip hurtSound;
    
     void Start()
     {
         animator = GetComponent<Animator>();
         rigidbody2d = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
+
+        audioSource= GetComponent<AudioSource>();
+    }
+
+    public void PlaySound(AudioClip clip)
+    {
+        audioSource.PlayOneShot(clip);
     }
 
     // Update is called once per frame
@@ -77,7 +88,6 @@ public class RubyController : MonoBehaviour
     }
     
 
-
     }
 
     void FixedUpdate()
@@ -103,6 +113,7 @@ public class RubyController : MonoBehaviour
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
         
         UIHealthBar.instance.SetValue(currentHealth / (float)maxHealth);
+        PlaySound(hurtSound);
 
     }
     
@@ -112,6 +123,7 @@ public class RubyController : MonoBehaviour
         
         Projectile projectile = projectileObject.GetComponent<Projectile>();
         projectile.Launch(lookDirection, 300);
+        PlaySound(projectileSound);
 
         animator.SetTrigger("Launch");
     } 
