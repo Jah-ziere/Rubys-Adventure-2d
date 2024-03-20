@@ -108,12 +108,13 @@ public class RubyController : MonoBehaviour
 
                 isInvincible = true;
                 invincibleTimer = timeInvincible;
+                PlaySound(hurtSound);
         }
         
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
         
         UIHealthBar.instance.SetValue(currentHealth / (float)maxHealth);
-        PlaySound(hurtSound);
+       
 
     }
     
