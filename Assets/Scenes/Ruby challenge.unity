@@ -442,6 +442,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: robot (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6702354130596924398, guid: 70538d76cd3474fc285234f204356dca, type: 3}
+      propertyPath: m_Size.y
+      value: 2.6150954
+      objectReference: {fileID: 0}
+    - target: {fileID: 6702354130596924398, guid: 70538d76cd3474fc285234f204356dca, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.027547717
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70538d76cd3474fc285234f204356dca, type: 3}
 --- !u!1001 &367321157
@@ -795,6 +803,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: robot
       objectReference: {fileID: 0}
+    - target: {fileID: 6702354130596924398, guid: 70538d76cd3474fc285234f204356dca, type: 3}
+      propertyPath: m_Size.y
+      value: 2.6014986
+      objectReference: {fileID: 0}
+    - target: {fileID: 6702354130596924398, guid: 70538d76cd3474fc285234f204356dca, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.02074927
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70538d76cd3474fc285234f204356dca, type: 3}
 --- !u!1001 &601728988
@@ -863,7 +879,17 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1660012329, guid: 2e1dd8b5df42940fa9445f215148e6e2, type: 3}
       propertyPath: m_text
-      value: press C to throw a gear and fix all 3 polluted robots.
+      value: Ruby! our town has been polluted by smogetha! shes broken free from
+        her crystal prison and is wreaking havok! please help us fix our corrupted
+        robots and save out town!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1660012329, guid: 2e1dd8b5df42940fa9445f215148e6e2, type: 3}
+      propertyPath: m_fontSize
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 1660012329, guid: 2e1dd8b5df42940fa9445f215148e6e2, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 37845234271665162, guid: 2e1dd8b5df42940fa9445f215148e6e2, type: 3}
       propertyPath: m_Name
@@ -9154,16 +9180,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: -13, y: 13, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 4
-      m_TileSpriteIndex: 1
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: -32, y: 14, z: 0}
     second:
       serializedVersion: 2
@@ -9354,16 +9370,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: -13, y: 14, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 4
-      m_TileSpriteIndex: 1
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: -32, y: 15, z: 0}
     second:
       serializedVersion: 2
@@ -9545,16 +9551,6 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: -14, y: 15, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 4
-      m_TileSpriteIndex: 1
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -13, y: 15, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 4
@@ -10904,7 +10900,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: e412900aa8adb49a3a247d8101ab5e98, type: 2}
   - m_RefCount: 564
     m_Data: {fileID: 11400000, guid: e510d323e2c884ad59234fee7265ac6a, type: 2}
-  - m_RefCount: 199
+  - m_RefCount: 196
     m_Data: {fileID: 11400000, guid: 41afadce6e3f84d79bd149a115a96fb3, type: 2}
   - m_RefCount: 27
     m_Data: {fileID: 11400000, guid: 3fb1eecff23d94ea78d9e8fef697e2ac, type: 2}
@@ -10939,7 +10935,7 @@ Tilemap:
   m_TileSpriteArray:
   - m_RefCount: 27
     m_Data: {fileID: 2110697115180747285, guid: 2e6ecdf01ba70e3489b17b3f6525fec2, type: 3}
-  - m_RefCount: 199
+  - m_RefCount: 196
     m_Data: {fileID: -6823326856332438016, guid: 56dfe645f43c419458abb426118088e5, type: 3}
   - m_RefCount: 41
     m_Data: {fileID: 4942817686469557064, guid: 2e6ecdf01ba70e3489b17b3f6525fec2, type: 3}
@@ -10978,7 +10974,7 @@ Tilemap:
   - m_RefCount: 58
     m_Data: {fileID: -8782233188917232318, guid: 2ff4c9799e22f1b4c95766cc11f47530, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 983
+  - m_RefCount: 980
     m_Data:
       e00: 1
       e01: 0
@@ -10997,7 +10993,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 983
+  - m_RefCount: 980
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -11081,13 +11077,13 @@ CompositeCollider2D:
         Y: 90000100
       - X: -129999900
         Y: 129999900
-      - X: -119999959
+      - X: -130000041
         Y: 129999900
-      - X: -119999900
+      - X: -130000100
         Y: 129999959
-      - X: -119999900
+      - X: -130000100
         Y: 160000041
-      - X: -119999959
+      - X: -130000041
         Y: 160000100
       - X: -129999900
         Y: 160000100
@@ -11176,10 +11172,6 @@ CompositeCollider2D:
       - {x: 15.00001, y: -3.999961}
       - {x: 14.999974, y: 9.00001}
       - {x: -12.99999, y: 9.000039}
-      - {x: -12.999961, y: 12.99999}
-      - {x: -11.99999, y: 13.000026}
-      - {x: -12.000026, y: 16.00001}
-      - {x: -12.99999, y: 16.00004}
       - {x: -13.000026, y: 23.00001}
       - {x: -32.00001, y: 22.999975}
       - {x: -31.999975, y: -1.00001}
@@ -11498,6 +11490,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: robot (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6702354130596924398, guid: 70538d76cd3474fc285234f204356dca, type: 3}
+      propertyPath: m_Size.y
+      value: 2.6558874
+      objectReference: {fileID: 0}
+    - target: {fileID: 6702354130596924398, guid: 70538d76cd3474fc285234f204356dca, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.04794371
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70538d76cd3474fc285234f204356dca, type: 3}
 --- !u!4 &1087082433 stripped
@@ -11744,6 +11744,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'ruby '
       objectReference: {fileID: 0}
+    - target: {fileID: 7738128935994444492, guid: 1a4656bcf968b47379eb6e6fc0cbdc7b, type: 3}
+      propertyPath: footsteps
+      value: 
+      objectReference: {fileID: 8300000, guid: a20c77ecd5de9eb4a98731b45ad84c3e, type: 3}
     - target: {fileID: 7738128935994444495, guid: 1a4656bcf968b47379eb6e6fc0cbdc7b, type: 3}
       propertyPath: m_RootOrder
       value: 19

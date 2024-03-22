@@ -28,7 +28,8 @@ public class RubyController : MonoBehaviour
    AudioSource audioSource;
    public AudioClip projectileSound;
    public AudioClip hurtSound;
-   
+   public AudioClip footsteps;
+   public bool audio; 
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -64,6 +65,23 @@ public class RubyController : MonoBehaviour
          animator.SetFloat("Look X", lookDirection.x);
          animator.SetFloat("Look Y", lookDirection.y);
          animator.SetFloat("Speed", move.magnitude);
+
+         if (horizontal !=0 || vertical != 0)
+         {
+            audio = true;
+         }
+         else
+         {
+            audio = false;
+         }
+         if(audio = true & !audioSource.isPlaying)
+         {
+            PlaySound(footsteps);
+         }
+         if(audio = false )
+         {
+            audioSource.Stop();
+         }
 
          if (isInvincible)
          {
